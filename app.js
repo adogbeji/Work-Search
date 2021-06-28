@@ -1,6 +1,7 @@
 require('dotenv').config({path: './config.env'});
 const express = require('express');
 const ejs = require('ejs');
+const mongoose = require('mongoose');
 
 
 const app = express();
@@ -11,7 +12,21 @@ app.use(express.static(`${__dirname}/public`));
 app.use('/account', express.static(`${__dirname}/public`));
 
 
-// For Next Time: Require mongoose package & connect to Atlas cluster!
+const DB = require('./config/keys').MongoURI;
+
+mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
+.then(() => {
+    console.log('MongoDB Connected!');
+})
+.catch(err => {
+    console.log(err);
+});
+
+
+const User = require('./models/user-model');
+
+
+// For Next Time: Start building the Home Page!
 
 
 const port = process.env.PORT;
