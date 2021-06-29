@@ -29,6 +29,11 @@ const User = require('./models/user-model');
 // For Next Time: Start building the Home Page!
 
 
+app.get('/', (req, res) => {
+    res.render('home');
+});
+
+
 const port = process.env.PORT;
 
 app.listen(port, (req, res) => {
