@@ -1,0 +1,38 @@
+* {  /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+}
+
+html {
+    min-height: 100%;  /* Ensures HTML page is at least as high as browser viewport */
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;  /* Ensures page body is at least as high as browser viewport */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.top-container-1 {
+    width: 100vw;
+    background-color: #000000;
+}
+
+.pre-navigation .nav-link--1, .pre-navigation .nav-link--2 {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.pre-navigation .nav-link--1:hover, 
+.pre-navigation .nav-link--2:hover {
+    color: #F4ABC4;
+}
+
+.nav-link--1 {
+    margin-right: 2px;
+}
