@@ -17,6 +17,8 @@ body {
     color: #000000;
 }
 
+/* Pre-navigation Bar */
+
 .top-container-1 {
     width: 100vw;
     background-color: #000000;
@@ -35,4 +37,26 @@ body {
 
 .nav-link--1 {
     margin-right: 2px;
+}
+
+/* Main Navigation Bar */
+
+.top-container-2 {
+    width: 100vw;
+    background-color: #FFFFC7;
+}
+
+.navbar {
+    padding: 0.8% 5%;
+    background-color: #FFFFC7;
+}
+
+/* .navbar-brand {
+    background-color: grey;
+} */
+
+.navbar-brand .logo {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
 }
