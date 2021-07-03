@@ -84,6 +84,18 @@ body {
     color: #050505;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+    .navbar-nav {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .navbar-nav {
+        margin-top: 12px;
+    }
+}
+
 .nav-link {  /* Targeting small-screen devices & others */
     font-size: 1.05rem;
     color: #5D93F7;
