@@ -1,7 +1,7 @@
 * {  /* CSS Reset */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  /* Border & Padding now included in Width & Height */
+    box-sizing: inherit;
 }
 
 html {
@@ -15,6 +15,7 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
     color: #000000;
+    box-sizing: border-box;  /* Border & Padding now included in Width & Height */
 }
 
 /* Pre-navigation Bar */
@@ -121,4 +122,65 @@ body {
     padding: 3px;
     box-shadow: 3px -3px 4.3px 0 #7E0FC5;
     background-color: #111111;
+}
+
+.home-page-middle-container--1 {
+    width: 100vw;
+    position: relative;
+    background-color: #A9F1DF;
+}
+
+/* Shape Divider */
+
+.custom-shape-divider-bottom-1623485299 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623485299 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 39px;
+}
+
+.custom-shape-divider-bottom-1623485299 .shape-fill--1 {
+    fill: #FFFFFF;
+}
+
+/* .home-page-sect_a-card-colour--1 {
+    border: none;
+    background-color: #A9F1DF;
+} */
+
+.home-page-sect_a-text--1 {  /* Targeting small-screen devices & others */
+    font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 992px) {  /* Targeting large-screen devices and up */
+    .home-page-sect_a-text--1 {
+        font-size: 4.3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {  /* Targeting medium-screen devices */
+    .home-page-sect_a-text--1 {
+        font-size: 3.8rem;
+    }
+}
+
+.home-page-sect_a-text--2 {  /* Targeting small-screen devices & others */
+    font-size: 1.1rem;
+    letter-spacing: 1.4px;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_a-text--2 {
+        font-size: 1.3rem;
+    }
 }

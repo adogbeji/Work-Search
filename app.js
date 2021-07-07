@@ -26,7 +26,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 const User = require('./models/user-model');
 
 
-// For Next Time: Continue styling the main navigation bar!
+// For Next Time: Continue building middle container 1!
 
 
 app.get('/', (req, res) => {
