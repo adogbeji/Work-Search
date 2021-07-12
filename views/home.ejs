@@ -102,11 +102,47 @@
                  <div class="home-page-sect_a-text-container--2">
                    <p class="home-page-sect_a-text--2">Let's make things happen!</p>
                  </div>
+                 <div class="home-page-sect_a-button-container--1">
+                   <div class="home-page-sect_a-button-container--2">
+                     <a href="/account/login" class="btn home-page-sect_a-button-colour--1 btn-lg">
+                        Login
+                     </a>
+                   </div>
+                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            Column
+          <div class="col-md-4">
+            <div class="card home-page-sect_a-card-colour--2">
+              <div class="card-body">
+                <div class="home-page-sect_a-text-container--3">
+                   <h4 class="home-page-sect_a-text--3">Create your 
+                     <span class="fw-bold home-page-sect_a-highlight--2">free</span>
+                    account now!</h4>
+                </div>
+                <form action="/account/register" method="POST">
+                  <div class="mb-3 form-group">
+                    <label for="clientName" class="form-label">
+                      <span class="fw-bold home-page-sect_a-text-colour">Name:</span>
+                    </label>
+                    <input type="text" name="name" class="form-control" id="clientName" autocomplete="off"/>
+                  </div>
+                  <div class="mb-3 form-group">
+                    <label for="clientEmail" class="form-label">
+                      <span class="fw-bold home-page-sect_a-text-colour">Email:</span>
+                    </label>
+                    <input type="email" name="email" class="form-control" id="clientEmail" autocomplete="off"/>
+                  </div>
+                  <div class="mb-3 form-group">
+                    <label for="clientPassword" class="form-label">
+                      <span class="fw-bold home-page-sect_a-text-colour">Password:</span>
+                    </label>
+                    <input type="password" name="password" class="form-control" id="clientPassword"/>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
           <div class="col">
             Column

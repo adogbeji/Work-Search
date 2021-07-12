@@ -1,4 +1,6 @@
-* {  /* CSS Reset */
+*,
+*::before,
+*::after {  /* CSS Reset */
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -153,10 +155,16 @@ body {
     fill: #FFFFFF;
 }
 
-/* .home-page-sect_a-card-colour--1 {
+.home-page-sect_a-card-colour--1 {
     border: none;
     background-color: #A9F1DF;
-} */
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_a-text-container--1 {
+        text-align: center;
+    }
+}
 
 .home-page-sect_a-text--1 {  /* Targeting small-screen devices & others */
     font-size: 2.2rem;
@@ -174,6 +182,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .home-page-sect_a-text-container--2 {  /* Targeting small-screen devices */
+        text-align: center;
+    }
+}
+
 .home-page-sect_a-text--2 {  /* Targeting small-screen devices & others */
     font-size: 1.1rem;
     letter-spacing: 1.4px;
@@ -184,3 +198,30 @@ body {
         font-size: 1.3rem;
     }
 }
+
+.home-page-sect_a-button-container--2 {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_a-button-container--2 {
+        margin: auto;
+    }
+}
+
+.home-page-sect_a-button-colour--1 {
+    color: #050505;
+    width: 100%;
+    border: 1.5px solid #050505;
+}
+
+.home-page-sect_a-button-colour--1:hover {
+    color: #050505;
+    border: none;
+    background-color: #808080;
+}
+
+/* .home-page-sect_a-card-colour--2 {
+    border: none;
+    background-color: #A9F1DF;
+} */
