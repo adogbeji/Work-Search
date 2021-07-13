@@ -221,7 +221,52 @@ body {
     background-color: #808080;
 }
 
-/* .home-page-sect_a-card-colour--2 {
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_a-button-colour--1 {
+        margin-bottom: 20px;
+    }
+}
+
+.home-page-sect_a-card-colour--2 {
     border: none;
-    background-color: #A9F1DF;
+    background-color: #FFFFFF;
+}
+
+.home-page-sect_a-text-container--3 {
+    width: 95%;
+    text-align: left;
+    padding-bottom: 15px;
+    /* background-color: #FF0000; */
+}
+
+.home-page-sect_a-text--3 {  /* Targeting small-screen devices & others */
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_a-text--3 {
+        font-size: 1.7rem;
+    }
+}
+
+.home-page-sect_a-highlight--2 {
+    text-decoration: solid underline #BD00AA;
+}
+
+.home-page-sect_a-text-colour {
+    color: #000000;
+}
+
+/* .home-page-sect_a-button-container--3 {
+    background-color: #00FF00;
 } */
+
+.home-page-sect_a-button-colour--2 {
+    color: #EEEEEE;
+    width: 100%;
+    background-color: #111111;
+}
+
+.home-page-sect_a-button-colour--2:hover {
+    color: #FFFF00;
+}
