@@ -452,3 +452,39 @@ body {
     font-weight: 200;
     letter-spacing: 1.4px;
 }
+
+.home-page-sect_c-specialism-container {
+    width: 90%;
+    margin: auto;
+    background-color: grey;
+}
+
+/* .home-page-sect_c-card--4 {
+    border: none;
+    background-color: #A9F1DF;
+} */
+
+.home-page-sect_c-img-container--1 {
+    width: 320px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.home-page-sect_c-img-container--1 .picture {
+    max-width: 100%;
+    height: auto;
+    width: 320px;
+    border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .home-page-sect_c-img-container--1 {
+        transform: translateX(-75px) scale(0.62);
+    }
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_c-img-container--1 {
+        transform: translateX(-55px) scale(0.75);
+    }
+}
