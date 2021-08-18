@@ -456,13 +456,13 @@ body {
 .home-page-sect_c-specialism-container {
     width: 90%;
     margin: auto;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
-/* .home-page-sect_c-card--4 {
+.home-page-sect_c-card--4, .home-page-sect_c-card--5 {
     border: none;
     background-color: #A9F1DF;
-} */
+}
 
 .home-page-sect_c-img-container--1 {
     width: 320px;
@@ -512,5 +512,19 @@ body {
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
     .home-page-sect_c-text--5 {
         font-size: 1.8rem;
+    }
+}
+
+.home-page-sect_c-text-container--6 {
+    text-align: center;
+}
+
+.home-page-sect_c-text--6 {  /* Targeting small-screen devices & others */
+    font-size: 1.15rem;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_c-text--6 {
+        font-size: 1.15rem;
     }
 }
