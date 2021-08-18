@@ -26,7 +26,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 const User = require('./models/user-model');
 
 
-// For Next Time: Continue building Home Page middle section C!
+// For Next Time: Continue working Home Page Section C 2nd image!
 
 
 app.get('/', (req, res) => {
