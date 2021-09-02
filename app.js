@@ -26,7 +26,7 @@ mongoose.connect(DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreat
 const User = require('./models/user-model');
 
 
-// For Next Time: Add text beneath 5th image of Home Page Section C!
+// For Next Time: Finish styling text beneath 5th image of Home Page Section C!
 
 
 app.get('/', (req, res) => {
