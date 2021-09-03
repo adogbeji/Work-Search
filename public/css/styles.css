@@ -435,7 +435,7 @@ body {
 .home-page-sect_c-card--1, .home-page-sect_c-card--2, 
 .home-page-sect_c-card--3, .home-page-sect_c-card--4,
 .home-page-sect_c-card--5, .home-page-sect_c-card--6,
-.home-page-sect_c-card--7 {
+.home-page-sect_c-card--7, .home-page-sect_c-card--8 {
     border: none;
     background-color: #A9F1DF;
 }
@@ -459,6 +459,12 @@ body {
     width: 90%;
     margin: auto;
     /* background-color: grey; */
+}
+
+@media only screen and (min-width: 992px) {  /* Targeting large-screen devices and up */
+    .home-page-sect_c-specialism-container {
+        padding: 50px 0 60px 0;
+    }
 }
 
 .home-page-sect_c-card--4 {
@@ -751,4 +757,12 @@ body {
     .home-page-sect_c-text--13 {
         font-size: 1.8rem;
     }
+}
+
+.home-page-sect_c-text-container--14 {
+    text-align: center;
+}
+
+.home-page-sect_c-text--14 {
+    font-size: 1.15rem;
 }
