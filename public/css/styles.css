@@ -847,3 +847,30 @@ body {
         font-size: 2.5rem;
     }
 }
+
+.home-page-sect_d-sequence-container {
+    width: 90%;
+    margin: auto;
+    background-color: grey;
+}
+
+.home-page-sect_d-card--1 {
+    border: none;
+    background-color: #FFFFC7;
+}
+
+.home-page-sect_d-text-container--3 {
+    text-align: left;
+}
+
+.home-page-sect_d-text--3 {  /* Targeting small-screen devices & others */
+    font-size: 2.6rem;
+    color: #0E49B5;
+    opacity: .7;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_d-text--3 {
+        font-size: 2.9rem;
+    }
+}
