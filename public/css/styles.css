@@ -916,3 +916,25 @@ body {
     font-size: 1.3rem;
     font-weight: 400;
 }
+
+/* .home-page-sect_d-img-container--1 {
+    background-color: grey;
+} */
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_d-img-container--1 {
+        text-align: center;
+    }
+}
+
+.home-page-sect_d-icon--1 {  /* Targeting small-screen devices & others */
+    font-size: 7.5rem;  /* Small-screen */
+    color: #0E49B5;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_d-icon--1 {
+        font-size: 7.8rem;
+    }
+}
