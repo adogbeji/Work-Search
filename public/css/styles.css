@@ -952,6 +952,16 @@ body {
     }
 }
 
+.home-page-sect_d-row-spacer--2 {  /* Targeting small-screen devices & other */
+    padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_d-row-spacer--2 {
+        padding-bottom: 80px;
+    }
+}
+
 .home-page-sect_d-card--2 {
     border: none;
     background-color: #FFFFC7;
@@ -1024,6 +1034,82 @@ body {
 
 @media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
     .home-page-sect_d-icon--2 {
+        font-size: 7.8rem;
+    }
+}
+
+.home-page-sect_d-card--3 {
+    border: none;
+    background-color: #FFFFC7;
+}
+
+.home-page-sect_d-text-container--9 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_d-text-container--9 {
+        text-align: center;
+    }
+}
+
+.home-page-sect_d-text--9 {
+    font-size: 2.9rem;
+    color: #0E49B5;
+    opacity: .7;
+    letter-spacing: 1.8px;
+}
+
+.home-page-sect_d-text-container--10 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_d-text-container--10 {
+        text-align: center;
+    }
+}
+
+.home-page-sect_d-text--10 {  /* Targeting small-screen devices & others */
+    font-size: 3.1rem;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_d-text--10 {
+        font-size: 3.4rem;
+    }
+}
+
+.home-page-sect_d-text-container--11 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_d-text-container--11 {
+        text-align: center;
+    }
+}
+
+.home-page-sect_d-text--11 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 600px) {  /* Targeting small-screen devices */
+    .home-page-sect_d-img-container--3 {
+        text-align: center;
+    }
+}
+
+.home-page-sect_d-icon--3 {  /* Targeting small-screen devices & other */
+    font-size: 7.5rem;  /* Small-screen */
+    color: #0E49B5;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {  /* Targeting medium-screen devices and up */
+    .home-page-sect_d-icon--3 {
         font-size: 7.8rem;
     }
 }
